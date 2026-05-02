@@ -6,246 +6,313 @@
   <title>Smart AI Tools - Privacy Policy</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
-      background: #0b1220;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #070b16;
       color: #e5e7eb;
       line-height: 1.7;
     }
 
+    .page-bg {
+      min-height: 100vh;
+      padding: 32px 16px;
+      background:
+        radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 35%),
+        radial-gradient(circle at top right, rgba(99, 102, 241, 0.18), transparent 35%),
+        linear-gradient(180deg, #070b16 0%, #0b1220 100%);
+    }
+
     .container {
       max-width: 900px;
-      margin: 30px auto;
-      background: linear-gradient(180deg, #0b1220, #0f172a);
-      padding: 30px;
-      border-radius: 20px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      margin: 0 auto;
+      background: linear-gradient(180deg, #0b1220 0%, #0f172a 100%);
+      padding: 44px;
+      border-radius: 28px;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
+      border: 1px solid rgba(148, 163, 184, 0.12);
     }
 
     .badge {
-      width: 70px;
-      height: 70px;
-      margin: 0 auto 15px;
-      border-radius: 18px;
+      width: 76px;
+      height: 76px;
+      margin: 0 auto 22px;
+      border-radius: 22px;
       background: linear-gradient(135deg, #6366f1, #06b6d4);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 32px;
+      font-size: 34px;
+      box-shadow: 0 12px 28px rgba(14, 165, 233, 0.25);
     }
 
     h1 {
       text-align: center;
       color: #ffffff;
-      margin-bottom: 10px;
-      font-size: 32px;
+      margin: 0 0 18px;
+      font-size: 44px;
+      line-height: 1.2;
+      letter-spacing: -0.5px;
     }
 
     .intro {
       text-align: center;
-      color: #9ca3af;
-      font-size: 16px;
-      margin-bottom: 30px;
+      color: #aeb8cc;
+      font-size: 18px;
+      max-width: 760px;
+      margin: 0 auto 42px;
     }
 
     h2 {
-      margin-top: 28px;
+      margin: 38px 0 14px;
       color: #38bdf8;
-      font-size: 20px;
+      font-size: 26px;
+      line-height: 1.35;
     }
 
     p {
-      font-size: 15px;
-      color: #cbd5f5;
-      margin: 10px 0;
+      font-size: 17px;
+      color: #cbd5e1;
+      margin: 12px 0;
     }
 
     a {
       color: #38bdf8;
       word-break: break-word;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 700;
     }
 
     a:hover {
       text-decoration: underline;
     }
 
+    .permission-list {
+      padding-left: 0;
+      margin: 12px 0;
+      list-style: none;
+      color: #cbd5e1;
+      font-size: 17px;
+    }
+
+    .permission-list li {
+      margin: 8px 0;
+    }
+
     .updated {
-      margin-top: 35px;
-      padding-top: 15px;
-      border-top: 1px solid #1f2937;
+      margin-top: 42px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(148, 163, 184, 0.18);
       text-align: center;
-      color: #6b7280;
-      font-size: 14px;
+      color: #8b95a8;
+      font-size: 15px;
     }
 
     @media (max-width: 600px) {
+      .page-bg {
+        padding: 22px 12px;
+      }
+
       .container {
-        margin: 15px;
-        padding: 22px;
+        padding: 30px 24px;
+        border-radius: 26px;
+      }
+
+      .badge {
+        width: 66px;
+        height: 66px;
+        font-size: 30px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .intro {
+        font-size: 16px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p,
+      .permission-list {
+        font-size: 16px;
       }
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="page-bg">
+    <main class="container">
 
-    <div class="badge">🛡️</div>
+      <div class="badge">🛡️</div>
 
-    <h1>Privacy Policy</h1>
+      <h1>Privacy Policy</h1>
 
-    <p class="intro">
-      Smart AI Tools respects your privacy and is committed to protecting it.
-      This Privacy Policy explains how our app handles data, ads, AI features,
-      notes, permissions, notifications, QR scanning, and third-party services.
-    </p>
+      <p class="intro">
+        Smart AI Tools respects your privacy and is committed to protecting it.
+        This Privacy Policy explains how our app handles data, ads, AI features,
+        notes, permissions, notifications, QR scanning, and third-party services.
+      </p>
 
-    <h2>1. Personal Data</h2>
-    <p>
-      We do not collect or store personal information such as name, email,
-      phone number, address, or payment information directly within the app.
-    </p>
+      <h2>1. Personal Data</h2>
+      <p>
+        We do not collect or store personal information such as name, email,
+        phone number, address, or payment information directly within the app.
+      </p>
 
-    <h2>2. AI Services</h2>
-    <p>
-      The app uses internet access to process user input through AI services
-      in order to generate, summarize, or assist with text-based content.
-    </p>
-    <p>
-      User input may be sent to third-party AI providers for processing.
-    </p>
-    <p>
-      Please avoid entering sensitive, private, confidential, financial,
-      medical, legal, or personal information into the app.
-    </p>
-    <p>
-      AI-generated content may not always be accurate or reliable. Users are
-      responsible for reviewing and verifying results before use.
-    </p>
+      <h2>2. AI Services</h2>
+      <p>
+        The app uses internet access to process user input through AI services
+        in order to generate, summarize, or assist with text-based content.
+      </p>
+      <p>
+        User input may be sent to third-party AI providers for processing.
+      </p>
+      <p>
+        Please avoid entering sensitive, private, confidential, financial,
+        medical, legal, or personal information into the app.
+      </p>
+      <p>
+        AI-generated content may not always be accurate or reliable. Users are
+        responsible for reviewing and verifying results before use.
+      </p>
 
-    <h2>3. Notes</h2>
-    <p>
-      Notes created inside the app are stored locally on the user’s device only.
-      We do not upload, access, read, or store your notes on our servers.
-    </p>
-    <p>
-      If the app is deleted or app data is cleared, notes may be permanently lost.
-    </p>
+      <h2>3. Notes</h2>
+      <p>
+        Notes created inside the app are stored locally on the user’s device only.
+        We do not upload, access, read, or store your notes on our servers.
+      </p>
+      <p>
+        If the app is deleted or app data is cleared, notes may be permanently lost.
+      </p>
 
-    <h2>4. QR Scanner</h2>
-    <p>
-      The app may use camera access to scan QR codes only when the user chooses
-      to use this feature.
-    </p>
-    <p>
-      We do not store or upload camera data or scanned images.
-    </p>
+      <h2>4. QR Scanner</h2>
+      <p>
+        The app may use camera access to scan QR codes only when the user chooses
+        to use this feature.
+      </p>
+      <p>
+        We do not store or upload camera data or scanned images.
+      </p>
 
-    <h2>5. Advertising</h2>
-    <p>
-      We use Google AdMob to display ads.
-    </p>
-    <p>
-      AdMob may collect and use data such as advertising ID, device information,
-      and approximate location to improve ad relevance and performance.
-    </p>
-    <p>
-      Users can opt out of personalized ads:
-      <a href="https://adssettings.google.com" target="_blank">Google Ads Settings</a>
-    </p>
-    <p>
-      More details:
-      <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>
-    </p>
+      <h2>5. Advertising</h2>
+      <p>
+        We use Google AdMob to display ads.
+      </p>
+      <p>
+        AdMob may collect and use data such as advertising ID, device information,
+        and approximate location to improve ad relevance and performance.
+      </p>
+      <p>
+        Users can opt out of personalized ads:
+        <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">
+          Google Ads Settings
+        </a>
+      </p>
+      <p>
+        More details:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+          Google Privacy Policy
+        </a>
+      </p>
 
-    <h2>6. Firebase Services</h2>
-    <p>
-      We use Firebase services for analytics, crash reporting, performance monitoring,
-      and notifications.
-    </p>
-    <p>
-      Firebase may collect technical data such as device information, crash logs,
-      and usage statistics.
-    </p>
+      <h2>6. Firebase Services</h2>
+      <p>
+        We use Firebase services for analytics, crash reporting, performance monitoring,
+        and notifications.
+      </p>
+      <p>
+        Firebase may collect technical data such as device information, crash logs,
+        and usage statistics.
+      </p>
 
-    <h2>7. Notifications</h2>
-    <p>
-      The app may send notifications for updates and important messages.
-    </p>
-    <p>
-      Users can disable notifications anytime from device settings.
-    </p>
+      <h2>7. Notifications</h2>
+      <p>
+        The app may send notifications for updates and important messages.
+      </p>
+      <p>
+        Users can disable notifications anytime from device settings.
+      </p>
 
-    <h2>8. Data Sharing</h2>
-    <p>
-      We do not sell, trade, or share personal data.
-      Some third-party services may process limited technical data.
-    </p>
+      <h2>8. Data Sharing</h2>
+      <p>
+        We do not sell, trade, or share personal data.
+        Some third-party services may process limited technical data.
+      </p>
 
-    <h2>9. Internet Access</h2>
-    <p>
-      Internet access is required for AI features, ads, analytics,
-      notifications, and app functionality.
-    </p>
+      <h2>9. Internet Access</h2>
+      <p>
+        Internet access is required for AI features, ads, analytics,
+        notifications, and app functionality.
+      </p>
 
-    <h2>10. Security</h2>
-    <p>
-      We take reasonable measures to protect user data, but no method of
-      transmission or storage is 100% secure.
-    </p>
-    <p>
-      Users are responsible for the information they provide.
-    </p>
+      <h2>10. Security</h2>
+      <p>
+        We take reasonable measures to protect user data, but no method of
+        transmission or storage is 100% secure.
+      </p>
+      <p>
+        Users are responsible for the information they provide.
+      </p>
 
-    <h2>11. Children</h2>
-    <p>
-      We do not knowingly collect data from children.
-    </p>
-    <p>
-      If you believe a child has provided personal data, please contact us.
-    </p>
+      <h2>11. Children</h2>
+      <p>
+        We do not knowingly collect data from children.
+      </p>
+      <p>
+        If you believe a child has provided personal data, please contact us.
+      </p>
 
-    <h2>12. Third-Party Services</h2>
-    <p>
-      This app may use third-party services including AdMob, Firebase,
-      and AI providers.
-    </p>
+      <h2>12. Third-Party Services</h2>
+      <p>
+        This app may use third-party services including Google AdMob, Firebase,
+        and AI providers. These services may collect and process limited technical
+        data according to their own privacy policies.
+      </p>
 
-    <h2>13. Permissions</h2>
-    <p>
-      The app may request the following permissions:
-    </p>
-    <p>
-      - Internet: required for AI, ads, and services<br>
-      - Notifications: for updates and alerts<br>
-      - Camera: used only for QR scanning
-    </p>
+      <h2>13. Permissions</h2>
+      <p>
+        The app may request the following permissions:
+      </p>
+      <ul class="permission-list">
+        <li>- Internet: required for AI, ads, and services</li>
+        <li>- Notifications: used for updates and alerts</li>
+        <li>- Camera: used only for QR scanning</li>
+      </ul>
 
-    <h2>14. User Consent</h2>
-    <p>
-      By using the app, you agree to this Privacy Policy.
-    </p>
+      <h2>14. User Consent</h2>
+      <p>
+        By using the app, you acknowledge that you have read and understood this
+        Privacy Policy.
+      </p>
 
-    <h2>15. Updates</h2>
-    <p>
-      This Privacy Policy may be updated at any time.
-    </p>
+      <h2>15. Updates</h2>
+      <p>
+        This Privacy Policy may be updated at any time. Any changes will be posted
+        on this page with the updated date.
+      </p>
 
-    <h2>16. Contact</h2>
-    <p>
-      If you have any questions:
-      <br />
-      <a href="mailto:smartaitoolsapp@gmail.com">
-        smartaitoolsapp@gmail.com
-      </a>
-    </p>
+      <h2>16. Contact</h2>
+      <p>
+        If you have any questions:
+        <br />
+        <a href="mailto:smartaitoolsapp@gmail.com">
+          smartaitoolsapp@gmail.com
+        </a>
+      </p>
 
-    <p class="updated">Last updated: April 29, 2026</p>
+      <p class="updated">Last updated: April 29, 2026</p>
 
+    </main>
   </div>
 </body>
 </html>
