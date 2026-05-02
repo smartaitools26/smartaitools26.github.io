@@ -322,9 +322,17 @@
         </a>
       </p>
 
-      <p class="updated">Last updated: April 29, 2026</p>
+      <p class="updated">
+        Last updated: April 29, 2026<br><br>
+        © <span id="year"></span> Smart AI Tools. All rights reserved.
+      </p>
 
     </main>
   </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>
